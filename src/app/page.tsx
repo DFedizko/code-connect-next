@@ -1,7 +1,7 @@
 export default function Home() {
-  return (
-    <main>
-      <div>Hello world!</div>
-    </main>
-  );
+    return (
+        <main>
+            <p className="text-subtitle-large-semibold">AAA</p>
+        </main>
+    );
 }
