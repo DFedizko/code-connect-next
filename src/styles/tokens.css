@@ -1,0 +1,25 @@
+@theme {
+	/* Colors */
+	--color-verde-destaque: #81FE88;
+	--color-verde-pastel: #BFFFC3;
+	--color-verde-petroleo: #132E35;
+	--color-grafite: #00090E;
+	--color-cinza-escuro: #171D1F;
+	--color-cinza: #3E3E3F;
+	--color-cinza-medio: #888888;
+	--color-cinza-claro: #BCBCBC;
+	--color-offwhite: #E1E1E1;
+	--color-branco: #FFFFFF;
+
+  	--background-gradiente: linear-gradient(to right, #0E1112, var(--color-grafite));
+
+	/* Text sizes */
+	--text-heading: 2.75rem;
+	--text-heading-small: 2.31rem;
+	--text-subtitle: 1.62rem;
+	--text-subtitle-large: 1.94rem;
+	--text-paragraph-small: 0.94rem;
+	--text-paragraph: 1.12rem;
+	--text-paragraph-large: 1.38rem;
+	--text-label: 0.78rem;
+}
