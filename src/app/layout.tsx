@@ -1,5 +1,15 @@
+import { Prompt } from "next/font/google";
+
 import type { Metadata } from "next";
 import "../globals.css";
+import { Aside } from "@/components/Aside";
+
+const prompt = Prompt({
+    weight: ["400", "500", "600", "700"],
+    style: "normal",
+    subsets: ["latin"],
+    display: "swap"
+});
 
 export const metadata: Metadata = {
     title: "Code Connect",
@@ -12,9 +22,12 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-        <html lang="pt-BR">
-            <body className="min-h-screen flex flex-col bg-gradient-main">
-                {children}
+        <html lang="pt-BR" className={prompt.className}>
+            <body className="min-h-screen bg-gradient-main flex justify-center">
+                <div className="grid gap-7 grid-cols-[auto_1fr] my-14 w-[1200px] max-w-9/10">
+                    <Aside />
+                    {children}
+                </div>
             </body>
         </html>
     );
