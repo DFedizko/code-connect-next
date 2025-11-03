@@ -71,6 +71,14 @@
         line-height: 150%;
     }
 
+    .text-link-verde-destaque {
+        @apply text-paragraph text-verde-destaque underline;
+    }
+
+    .text-link-verde-pastel {
+        @apply text-paragraph text-verde-pastel underline;
+    }
+
     .bg-gradient-main {
         background-image: var(--background-gradiente);
     }

@@ -19,7 +19,7 @@ export const CardPost = ({ post }: { post: Post }) => {
             <section className="px-4 pt-4 flex flex-col gap-2 pb-8">
                 <h2 className="text-paragraph-semibold">{post.title}</h2>
                 <p className="text-paragraph-small">{post.body}</p>
-                <a href="/" className="text-paragraph decoration text-verde-destaque underline w-fit">Ver detalhes</a>
+                <a href="/" className="text-link-verde-destaque w-fit">Ver detalhes</a>
             </section>
             <footer className="px-4 pb-6 justify-self-end">
                 <Avatar
